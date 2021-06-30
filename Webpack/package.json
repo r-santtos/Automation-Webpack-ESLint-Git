@@ -1,0 +1,18 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "******\r * Iniciar repositório\r > npm init -y\r ******\r * Instalação\r Instalação do CLI e criação do Webpack\r > npm install --save-dev webpack webpack-cli\r ******\r * Comando para agrupar os arquivos\r > npx webpack ./caminho dos scrpt --output ./nome do arquivo final\r * OBS: NPX OU NODE_MODULES .BIN/WEBPACK\r ******",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production ./caminho do scrpt --output ./nome do arquivo final",
+    "dev": "webpack --mode development --watch ./caminho do scrpt --output ./nome do arquivo final"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
